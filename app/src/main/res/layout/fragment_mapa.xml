@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentMapa"
+    android:orientation="vertical"
+    android:id="@+id/linear_layout_mapa">
+
+        <!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+
+            <!--android:id="@+id/map"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--/>-->
+
+        <!--android:name="com.google.android.gms.maps.MapFragment"-->
+        <!--xmlns:map="http://schemas.android.com/apk/res-auto"-->
+        <!--map:cameraZoom="13"-->
+        <!--map:mapType="normal"-->
+        <!--map:liteMode="true"-->
+
+</LinearLayout>

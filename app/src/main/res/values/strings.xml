@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">SourSoft</string>
+    <string name="search">Search</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_otros">Otros</string>
+    <string name="nav_readQR">Leer QR Code</string>
+    <string name="nav_medicion">Mediciones</string>
+    <string name="nav_problema">Problemas</string>
+    <string name="nav_alimento">Alimentos</string>
+    <string name="nav_empaque">Empaques</string>
+    <string name="nav_configuraciom">Configuración</string>
+    <string name="nav_compartir_medicion">Compartir mediciones</string>
+    <string name="nav_enviar_medicion">Enviar mediciones</string>
+
+    <string name="title_activity_otr">OTR</string>
+    <string name="title_activity_problema">Cálculo Vida de Anaquel</string>
+
+    <string name="text_save">Guardar</string>
+    <string name="text_">Guardar</string>
+    <string name="text_vida_anaquel">Vida de Anaquel</string>
+    <string name="text_enviar">Enviar</string>
+    <string name="text_alimento">Alimento</string>
+    <string name="text_empaque">Empaque</string>
+    <string name="text_next">Siguiente</string>
+    <string name="text_back">Atrás</string>
+    <string name="text_without_connection">Sin conexión</string>
+    <string name="text_without_product">Producto sin escoger</string>
+    <string name="text_3dots">…</string>
+    <string name="text_edit">Editar</string>
+    <string name="text_insert">Insertar</string>
+    <string name="insert_empaque">Insertar Empaque</string>
+    <string name="insert_alimento">Insertar Alimento</string>
+    <string name="text_delete">Borrar</string>
+    <string name="text_eliminar">Eliminar</string>
+    <string name="text_cargar">Cargar</string>
+
+    <string name="column_name_descripcion">Descripción</string>
+    <string name="column_name_otr">OTR</string>
+    <string name="column_name_temp">Temperatura</string>
+    <string name="column_name_w">Peso</string>
+    <string name="column_name_pin">P.Interna</string>
+    <string name="column_name_vhs">V.H.S</string>
+    <string name="column_name_consumomax">ConsumoMax</string>
+
+    <string name="unidad_temp">°C</string>
+    <string name="unidad_peso">g</string>
+    <string name="unidad_area">m\u00B2</string>
+    <string name="unidad_presion">atm</string>
+    <string name="unidad_percent">%</string>
+    <string name="unidad_volume">cm\u00B3</string>
+    <string name="unidad_time">día</string>
+    <string name="unidad_concentracion">ppm</string>
+    <string name="unidad_otr">cm\u00B3/m\u00B2*día</string>
+
+    <string name="problema_step1">Paso 1 de 4</string>
+    <string name="problema_step2">Paso 2 de 4</string>
+    <string name="problema_step3">Paso 3 de 4</string>
+    <string name="problema_step4">Paso 4 de 4</string>
+    <string name="problema_area_superficial">Área superficial del empaque</string>
+    <string name="problema_peso_seco">Peso del producto seco</string>
+    <string name="problema_temp_almacen">Temperatura almacenamiento</string>
+    <string name="problema_presion_externa">Presión Externa</string>
+    <string name="problema_presion_interna">Presión Interna</string>
+    <string name="problema_conc_externa">Concentración Externa</string>
+    <string name="problema_conc_interna">Concentración Interna</string>
+    <string name="problema_vol_cabeza">Volumen de Cabeza</string>
+    <string name="problema_consumo_max">Consumo Máximo</string>
+    <string name="problema_calcular_vida">Calcular Vida de Anaquel</string>
+    <string name="problema_error_vida">No se pudo calcular la vida de anaquel</string>
+    <string name="problema_new_problem">Nuevo Problema</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+</resources>

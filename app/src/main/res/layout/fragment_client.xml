@@ -1,0 +1,48 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.secuenciauno.soursoft.FragmentClient">
+
+    <TableRow android:gravity="center"
+        android:layout_width="match_parent">
+        <ImageSwitcher android:id="@+id/ims_client_photo"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+        </ImageSwitcher>
+    </TableRow>
+
+    <View android:layout_height="1dp"/>
+
+    <TableRow
+        android:gravity="center"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nombre del cliente"
+            android:id="@+id/tv_client_name" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Dirección"
+            android:id="@+id/tv_client_address"/>
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+        <Spinner
+            android:id="@+id/sp_client_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"/>
+        <ImageButton android:id="@+id/imbtn_call_client"
+            android:src="@mipmap/ic_call_black"
+            android:layout_weight="1"/>
+    </TableRow>
+
+
+</TableLayout>
