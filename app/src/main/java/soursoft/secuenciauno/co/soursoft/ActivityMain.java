@@ -11,14 +11,25 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.MapFragment;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
 
 public class ActivityMain extends Activity {
 
     FragmentManager fragmentManager;
     EditText etSearch;
     ImageButton ibtnSearch;
+
+
+    public ArrayList<Client> listClients = new ArrayList<>();
 
 //    MapFragment fragmentMap;
 
@@ -38,6 +49,7 @@ public class ActivityMain extends Activity {
 
         fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
 
         fragmentTransaction.add(R.id.rl_app_bar_main, fragmentCategoria);
         fragmentTransaction.add(R.id.rl_app_bar_main, fragmentMapa);
@@ -112,6 +124,7 @@ public class ActivityMain extends Activity {
 
     public void changeCategory(String categoria){
         fragmentListCategoria.tvCategoria.setText(categoria);
+//        fragmentListCategoria.listClients = listClients;
         goToFragment(fragmentCategoria, fragmentListCategoria);
     }
 
@@ -132,4 +145,6 @@ public class ActivityMain extends Activity {
         }
         finish();
     }
+
+
 }

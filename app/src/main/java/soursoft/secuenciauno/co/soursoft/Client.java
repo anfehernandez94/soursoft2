@@ -5,7 +5,7 @@ package soursoft.secuenciauno.co.soursoft;
  */
 public class Client {
 
-    String _id;
+    String id;
     String name;
     String[] tel;
     String address;

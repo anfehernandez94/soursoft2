@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "109474721246",
+    "firebase_url": "https://soursoft2.firebaseio.com",
+    "project_id": "soursoft2",
+    "storage_bucket": "soursoft2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109474721246:android:1d0119e450c7243b",
+        "android_client_info": {
+          "package_name": "soursoft.secuenciauno.co.soursoft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109474721246-j9bt75dasob4gfp2dlcva5hvebt7l4jl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "soursoft.secuenciauno.co.soursoft",
+            "certificate_hash": "E86023E583D7D465F1D8FD284818D790DF8937DF"
+          }
+        },
+        {
+          "client_id": "109474721246-cdd3jjmb8gs1mrcnsafor374ovloigta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMqmwetNxHwLenQcJNndTyYkAYVstAKE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109474721246-cdd3jjmb8gs1mrcnsafor374ovloigta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
